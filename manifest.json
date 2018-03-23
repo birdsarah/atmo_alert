@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "ATMO Alert",
+  "version": "0.1",
+
+  "description": "Pops an notification when your cluster is ready. Icon credit: Server Approved by Yazmin Alanis from the Noun Project",
+
+  "icons": {
+    "128": "icons/icon-ready.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://analysis.telemetry.mozilla.org/clusters/*"],
+      "js": ["atmo_alert.js"]
+    }
+  ],
+
+  "permissions": [ "notifications" ]
+}
