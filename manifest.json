@@ -20,7 +20,15 @@
     }
   ],
 
-  "permissions": [ "notifications" ],
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": [ 
+    "notifications", 
+    "storage",
+    "https://api.pushbullet.com/v2/pushes"
+  ],
 
   "applications": {
     "gecko": {
