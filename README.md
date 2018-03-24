@@ -1,6 +1,6 @@
 ### ATMO Alert
 
-Web Extension to notify my when cluster is ready
+Web Extension to notify me when my cluster is ready.
 
 - posts a desktop notification
 - optionally posts to Pushbullet
