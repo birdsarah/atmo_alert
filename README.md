@@ -8,5 +8,5 @@ Web Extension to notify me when my cluster is ready.
 
 To install:
 
-- download [atmo_alert.zip](https://github.com/birdsarah/atmo_alert/releases/download/latest/atmo_alert.zip)
+- download `atmo_alert.zip` from [latest release](https://github.com/birdsarah/atmo_alert/releases/latest)
 - sideload: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Alternative_distribution_options/Sideloading_add-ons
