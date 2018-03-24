@@ -1,4 +1,5 @@
-# atmo_alert
+### ATMO Alert
+
 Web Extension to notify my when cluster is ready
 
 - posts a desktop notification
