@@ -16,6 +16,7 @@
   "content_scripts": [
     {
       "matches": ["https://analysis.telemetry.mozilla.org/clusters/*"],
+      "exclude_matches": ["https://analysis.telemetry.mozilla.org/clusters/new*"],
       "js": ["atmo_alert.js"]
     }
   ],
