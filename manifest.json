@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "ATMO Alert",
-  "version": "0.1",
+  "version": "0.2",
 
   "description": "Pops an notification when your cluster is ready. Icon credit: Server Approved by Yazmin Alanis from the Noun Project",
 
